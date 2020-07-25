@@ -1,0 +1,21 @@
+#TBG.cf - SpamAssassin Rules
+
+#Author: Gagandeep Singh Sapra - The Big Geek
+#HomePage: https://github.com/thebiggeek/TBG-SA-RULES
+
+#This is a collection of special rules that I have developed and use on my system.
+#
+#The starting date of writing this rules began in 2005 and I only published them in 2020
+#Some of these rules only work for us and are from our Internal learnings, they may not work for you
+
+#SPAMMY-TLDS - These are TLDs that send us a lot of SPAM
+header		__TBG_SPAMMY_TLD1	Received =~ /(\.net\.ae|\.net\.id|\.ro|\.ru|\.co\.jp|\.co\.ke|\.AC\.ZA|\.com\.vn|\.vn|\.cc|\.cu\.ua|\.com\.br|\.gr|\.hr|\.dk|\.win|\.bid|\.top|\.club|\.date|\.stream|\.trade|\.icu|\.press|\.pro|\.pet|\.kim|\.red)\s/i
+describe	__TBG_SPAMMY_TLD1	TLDs Sending Spammy Emails in Received
+score		__TBG_SPAMMY_TLD1	0.5
+
+header		__TBG_SPAMMY_TLD2	From =~ /(\.net\.ae|\.net\.id|\.ro|\.ru|\.co\.jp|\.co\.ke|\.AC\.ZA|\.com\.vn|\.vn|\.cc|\.cu\.ua|\.com\.br|\.gr|\.hr|\.dk|\.win|\.bid|\.top|\.club|\.date|\.stream|\.trade|\.icu|\.press|\.pro|\.pet|\.kim|\.red)\s/i
+describe	__TBG_SPAMMY_TLD2	TLDs Sending Spammy Emails in From
+score		__TBG_SPAMMY_TLD2	0.5
+
+meta		TBG_SPAMMY_TLD 		(__TBG_SPAMMY_TLD1 && __TBG_SPAMMY_TLD2)
+describe	TBG_SPAMMY_TLD		High Spammy TLD used in Recieved and From
