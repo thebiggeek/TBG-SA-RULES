@@ -57,13 +57,16 @@ header		__TBG_SUJBECT_DOMAIN4	Subject =~ /Your E-mail will Expire/i
 header		__TBG_FROM_DOMAIN1	From =~ /(Internet Services|Domain Notice|Domain Update)/i
 header		__TBG_FROM_DOMAIN2	From =~ /(System Message)/i
 header		__TBG_FROM_DOMAIN3	From =~ /(Admin Server)/i
+header		__TBG_FROM_DOMAIN4	From =~ /(email service)/i
 
 body 		__TBG_BODY_DOMAIN1	/\s+search engine registration/i
 body 		__TBG_BODY_DOMAIN2	/\s+Email Administrator/i
 body 		__TBG_BODY_DOMAIN3	/\s+verify immediately for free to prevent permanent termination/i
-body 		__TBG_BODY_DOMAIN4	/\s+Unusual Activities in Your MailBox /i
+body 		__TBG_BODY_DOMAIN4	/\s+Unusual Activities in Your MailBox/i
+body 		__TBG_BODY_DOMAIN5	/\s+You have reached storage limit/i
+body 		__TBG_BODY_DOMAIN6	/\s+until you re-validate/i
 
-meta		TBG_DOMAIN_SPAM	( __TBG_SUBJECT_DOMAIN1 + __TBG_SUBJECT_DOMAIN2 + __TBG_FROM_DOMAIN3 + __TBG_SUBJECT_DOMAIN4 + __TBG_FROM_DOMAIN1 + __TBG_FROM_DOMAIN2 + __TBG_FROM_DOMAIN3 + __TBG_BODY_DOMAIN1 + __TBG_BODY_DOMAIN2 + __TBG_BODY_DOMAIN3 >=2)
+meta		TBG_DOMAIN_SPAM	( __TBG_SUBJECT_DOMAIN1 + __TBG_SUBJECT_DOMAIN2 + __TBG_FROM_DOMAIN3 + __TBG_SUBJECT_DOMAIN4 + __TBG_FROM_DOMAIN1 + __TBG_FROM_DOMAIN2 + __TBG_FROM_DOMAIN3 + __TBG_FROM_DOMAIN4 + __TBG_BODY_DOMAIN1 + __TBG_BODY_DOMAIN2 + __TBG_BODY_DOMAIN3 + __TBG_BODY_DOMAIN4 + __TBG_BODY_DOMAIN5 >=2)
 describe	TBG_DOMAIN_SPAM	Domain Related Spam exists both in Body, Subject and From 
 score		TBG_DOMAIN_SPAM	2.0
 
