@@ -82,3 +82,17 @@ meta		TBG_FAX_SPAM		( __TBG_SUBJECT_FAX1 + __TBG_SUBJECT_FAX2 + __TBG_SUBJECT_FA
 describe 	TBG_FAX_SPAM		Fax Related Spam
 score		TBG_FAX_SPAM		1.2
 
+#COVID RELATED SPAM DETECTION
+#These are limited release spam detection for the current times we are in - not sure how long these will be in use
+#India is seeing a huge rise and abuse of COVID RELATED SPAM and Persistent Spammers who do not backoff
+
+#Spammy Domains
+header		__TBG_FROM_COVID1		From =~ /paysquare.co.in/i
+header		__TBG_SUBJECT_COVID1	Subject =~ /Manage Statutory Compliance during Pandemic/i
+body 		__TBG_BODY_COVID1		/\s+during a pandemic/i
+
+meta		TBG_COVID_SPAM ( __TBG_FROM_COVID1 + __TBG_SUBJECT_COVID1 + __TBG_BODY_COVID1 >= 2)
+describe	TBG_COVID_SPAM	COVID Related Spam
+score		TBG_COVID_SPAM	1.0
+
+
