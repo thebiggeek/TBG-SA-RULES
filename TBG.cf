@@ -44,9 +44,9 @@ header		__TBG_FROM_SEO1		From =~ /(Domain Expiration SEO|Final Reminder)/i
 body		__TBG_BODY_SEO1		 /\s+(Position your website to be top-ranking|Top position in Google)/i
 body 		__TBG_BODY_SEO2		/\s+(Search Specialist|Hello Team)/i
 
-meta		__TBG_SEO_SPAM		( __TBG_SUBJECT_SEO1 + __TBG_SUBJECT_SEO2 + __TBG_SUBJECT_SEO3 + __TBG_FROM_SEO1 + __TBG_BODY_SEO1 + __TBG_BODY_SEO2 >=2)
-describe	__TBG_SEO_SPAM		SEO Related Spam exists both in Body, Subject and From 
-score		__TBG_SEO_SPAM		3.0
+meta		TBG_SEO_SPAM		( __TBG_SUBJECT_SEO1 + __TBG_SUBJECT_SEO2 + __TBG_SUBJECT_SEO3 + __TBG_FROM_SEO1 + __TBG_BODY_SEO1 + __TBG_BODY_SEO2 >=2)
+describe	TBG_SEO_SPAM		SEO Related Spam exists both in Body, Subject and From 
+score		TBG_SEO_SPAM		3.0
 
 #Domains Related Spam
 header		__TBG_SUBJECT_DOMAIN1	Subject =~ /This is your Final (Reminder|Notice)/i
@@ -59,9 +59,9 @@ header		__TBG_FROM_DOMAIN2	From =~ /(System Message)/i
 body 		__TBG_BODY_DOMAIN1	/\s+search engine registration/i
 body 		__TBG_BODY_DOMAIN2	/\s+Email Administrator/i
 
-meta		__TBG_DOMAIN_SPAM	( __TBG_SUBJECT_DOMAIN1 + __TBG_SUBJECT_DOMAIN2 + __TBG_FROM_DOMAIN1 + __TBG_BODY_DOMAIN1 + __TBG_BODY_DOMAIN2 + __TBG_SUBJECT_DOMAIN3 + __TBG_FROM_DOMAIN2 >=2)
-describe	__TBG_DOMAIN_SPAM	Domain Related Spam exists both in Body, Subject and From 
-score		__TBG_DOMAIN_SPAM	2.0
+meta		TBG_DOMAIN_SPAM	( __TBG_SUBJECT_DOMAIN1 + __TBG_SUBJECT_DOMAIN2 + __TBG_FROM_DOMAIN1 + __TBG_BODY_DOMAIN1 + __TBG_BODY_DOMAIN2 + __TBG_SUBJECT_DOMAIN3 + __TBG_FROM_DOMAIN2 >=2)
+describe	TBG_DOMAIN_SPAM	Domain Related Spam exists both in Body, Subject and From 
+score		TBG_DOMAIN_SPAM	2.0
 
 #Fax Recieved Related Spam - Is Someone still using Faxes in 2020
 header		__TBG_SUBJECT_FAX1	Subject =~ /new fax, document/i
@@ -71,7 +71,7 @@ header		__TBG_SUBJECT_FAX3	Subject =~ /You have received a new fax, document/i
 body 		__TBG_BODY_FAX1		/\s+Click Here to View FAX document/i
 body 		__TBG_BODY_FAX2		/\s+You have an incoming FAX document/i
 
-meta		__TBG_FAX_SPAM		( __TBG_SUBJECT_FAX1 + __TBG_SUBJECT_FAX2 + __TBG_SUBJECT_FAX3 + __TBG_BODY_FAX1 + __TBG_BODY_FAX2 >=2 )
-describe 	__TBG_FAX_SPAM		Fax Related Spam
-score		__TBG_FAX_SPAM		1.2
+meta		TBG_FAX_SPAM		( __TBG_SUBJECT_FAX1 + __TBG_SUBJECT_FAX2 + __TBG_SUBJECT_FAX3 + __TBG_BODY_FAX1 + __TBG_BODY_FAX2 >=2 )
+describe 	TBG_FAX_SPAM		Fax Related Spam
+score		TBG_FAX_SPAM		1.2
 
