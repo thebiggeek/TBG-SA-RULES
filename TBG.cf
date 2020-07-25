@@ -52,7 +52,7 @@ score		TBG_SEO_SPAM		3.0
 header		__TBG_SUBJECT_DOMAIN1	Subject =~ /This is your Final (Reminder|Notice)/i
 header		__TBG_SUBJECT_DOMAIN2	Subject =~ /Request on your Domain De-activation/i
 header		__TBG_SUBJECT_DOMAIN3	Subject =~ /You instructed us to close/i
-header		__TBG_SUJBECT_DOMAIN4	Subject =~ /Your E-mail will Expire/i
+header		__TBG_SUBJECT_DOMAIN4	Subject =~ /Your E-mail will Expire/i
 
 header		__TBG_FROM_DOMAIN1	From =~ /(Internet Services|Domain Notice|Domain Update)/i
 header		__TBG_FROM_DOMAIN2	From =~ /(System Message)/i
