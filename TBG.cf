@@ -88,11 +88,19 @@ score		TBG_FAX_SPAM		1.2
 
 #Spammy Domains
 header		__TBG_FROM_COVID1		From =~ /paysquare.co.in/i
+header		__TBG_FROM_COVID2		From =~ /youth4work.in/i
+header		__TBG_FROM_COVID3		From =~ /y4w.co/i
+
 header		__TBG_SUBJECT_COVID1	Subject =~ /Manage Statutory Compliance during Pandemic/i
+header		__TBG_SUBJECT_COVID2	Subject =~ /Coronavirus disease/i
+header		__TBG_SUBJECT_COVID3	Subject =~ /COVID19 Supplier/i
+header		__TBG_SUBJECT_COVID4	Subject =~ /COVID-19 Supplier/i
+header		__TBG_SUBJECT_COVID5	Subject =~ /covid time/i
+
 body 		__TBG_BODY_COVID1		/\s+during a pandemic/i
 
-meta		TBG_COVID_SPAM ( __TBG_FROM_COVID1 + __TBG_SUBJECT_COVID1 + __TBG_BODY_COVID1 >= 2)
+meta		TBG_COVID_SPAM ( __TBG_FROM_COVID1 + __TBG_FROM_COVID2 + __TBG_FROM_COVID3 + __TBG_SUBJECT_COVID1 + __TBG_SUBJECT_COVID2 + __TBG_SUBJECT_COVID3 + __TBG_SUBJECT_COVID4 + __TBG_SUBJECT_COVID5 + __TBG_BODY_COVID1 >= 2)
 describe	TBG_COVID_SPAM	COVID Related Spam
-score		TBG_COVID_SPAM	1.0
+score		TBG_COVID_SPAM	1.7
 
 
