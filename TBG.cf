@@ -38,13 +38,15 @@ describe	TBG_SCRIPTS_CMS_PHP Possibly using Wordpress PHP mail Vulnerabilities
 header		__TBG_SUBJECT_SEO1	Subject =~ /Expiration SEO/i
 header		__TBG_SUBJECT_SEO2	Subject =~ /Top Positions/i
 header		__TBG_SUBJECT_SEO3	Subject =~ /SEO Issue/i
+header 		__TBG_SUBJECT_SEO4	Subject =~ /first page of Google/i
 
 header		__TBG_FROM_SEO1		From =~ /(Domain Expiration SEO|Final Reminder)/i
 
-body		__TBG_BODY_SEO1		 /\s+(Position your website to be top-ranking|Top position in Google)/i
+body		__TBG_BODY_SEO1		/\s+(Position your website to be top-ranking|Top position in Google)/i
 body 		__TBG_BODY_SEO2		/\s+(Search Specialist|Hello Team)/i
+body 		__TBG_BODY_SEO3		/\s+(your website is great design|1st page)/i
 
-meta		TBG_SEO_SPAM		( __TBG_SUBJECT_SEO1 + __TBG_SUBJECT_SEO2 + __TBG_SUBJECT_SEO3 + __TBG_FROM_SEO1 + __TBG_BODY_SEO1 + __TBG_BODY_SEO2 >=2)
+meta		TBG_SEO_SPAM		( __TBG_SUBJECT_SEO1 + __TBG_SUBJECT_SEO2 + __TBG_SUBJECT_SEO3 + __TBG_SUBJECT_SEO4 + __TBG_FROM_SEO1 + __TBG_BODY_SEO1 + __TBG_BODY_SEO2 + __TBG_BODY_SEO3 >=2)
 describe	TBG_SEO_SPAM		SEO Related Spam exists both in Body, Subject and From 
 score		TBG_SEO_SPAM		3.0
 
@@ -85,6 +87,7 @@ score		TBG_FAX_SPAM		1.2
 #COVID RELATED SPAM DETECTION
 #These are limited release spam detection for the current times we are in - not sure how long these will be in use
 #India is seeing a huge rise and abuse of COVID RELATED SPAM and Persistent Spammers who do not backoff
+#As I see it The COVID related spam is going to be the New VIAGRA
 
 #Spammy Domains
 header		__TBG_FROM_COVID1		From =~ /paysquare.co.in/i
@@ -96,10 +99,14 @@ header		__TBG_SUBJECT_COVID2	Subject =~ /Coronavirus disease/i
 header		__TBG_SUBJECT_COVID3	Subject =~ /COVID19 Supplier/i
 header		__TBG_SUBJECT_COVID4	Subject =~ /COVID-19 Supplier/i
 header		__TBG_SUBJECT_COVID5	Subject =~ /covid time/i
+header 		__TBG_SUBJECT_COVID6	Subject =~ /Build post-COVID cyber immunity/i
+header		__TBG_SUBJECT_COVID7	Subject =~ /Build post-COVID immunity/i
 
 body 		__TBG_BODY_COVID1		/\s+during a pandemic/i
+body 		__TBG_BODY_COVID2		/\s+Protect yourself with high quality range of PPE/i
+body 		__TBG_BODY_COVID3		/\s+Cost Effective Personal Protective Equipment/i
 
-meta		TBG_COVID_SPAM ( __TBG_FROM_COVID1 + __TBG_FROM_COVID2 + __TBG_FROM_COVID3 + __TBG_SUBJECT_COVID1 + __TBG_SUBJECT_COVID2 + __TBG_SUBJECT_COVID3 + __TBG_SUBJECT_COVID4 + __TBG_SUBJECT_COVID5 + __TBG_BODY_COVID1 >= 2)
+meta		TBG_COVID_SPAM ( __TBG_FROM_COVID1 + __TBG_FROM_COVID2 + __TBG_FROM_COVID3 + __TBG_SUBJECT_COVID1 + __TBG_SUBJECT_COVID2 + __TBG_SUBJECT_COVID3 + __TBG_SUBJECT_COVID4 + __TBG_SUBJECT_COVID5 + __TBG_SUBJECT_COVID6 + __TBG_SUBJECT_COVID7 + __TBG_BODY_COVID1 + __TBG_BODY_COVID2 + __TBG_BODY_COVID3 >= 2)
 describe	TBG_COVID_SPAM	COVID Related Spam
 score		TBG_COVID_SPAM	1.7
 
