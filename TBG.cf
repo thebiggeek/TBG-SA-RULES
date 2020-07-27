@@ -110,4 +110,68 @@ meta		TBG_COVID_SPAM ( __TBG_FROM_COVID1 + __TBG_FROM_COVID2 + __TBG_FROM_COVID3
 describe	TBG_COVID_SPAM	COVID Related Spam
 score		TBG_COVID_SPAM	1.7
 
+#Following Rules are inspired by the SCHAALIT & Heinlein Rules and are to tag and score spam we see in India
+#Some of these rules only work for us and are from our Internal learnings, they may not work for you
+#Following Rules are named S3BMS_BODY_XXXX and S3BMS_HEADER  - Each Rule is a Single Line Rule with an increasing serial number
+#Wherever possible I will try to add description of why this exists
+#The score here is high, to ensure that SPAM Does not go through and triggers a quarantine
 
+body 		S3BMS_BODY_1	/especially during a pandemic/
+describe 	S3BMS_BODY_1	Spam related to pandemic
+score		S3BMS_BODY_1	3
+
+body 		S3BMS_BODY_2	/Every successful person in the world, followed a program or system/
+describe 	S3BMS_BODY_2	Trying to sell consulting and upsell mailing programmes
+score		S3BMS_BODY_2	3
+
+body 		S3BMS_BODY_3	/Already started or want our mentorship and training now/
+describe	S3BMS_BODY_3	Selling Mentorship - Consulting Spam
+score		S3BMS_BODY_3	3
+
+body 		S3BMS_BODY_4	/get your website on page 1 of Google/
+describe	S3BMS_BODY_4	SEO Spam offering high google positions 
+score		S3BMS_BODY_4	3
+
+body 		S3BMS_BODY_5	/website On 1st Page of the Google/
+describe	S3BMS_BODY_5	SEO SPAM offering high google Positions
+score		S3BMS_BODY_5	3
+
+body 		S3BMS_BODY_6	/No Listing Fees/
+describe 	S3BMS_BODY_6	Listing Related Spam
+score		S3BMS_BODY_6	3
+
+body 		S3BMS_BODY_7	/Bhabhi Porn/
+describe	S3BMS_BODY_7	Indian Pornography related
+score 		S3BMS_BODY_7 	3
+
+body 		S3BMS_BODY_8	/Desi Porn/
+describe 	S3BMS_BODY_8	Indian Pornography Related 
+score		S3BMS_BODY_8	3
+
+body 		S3BMS_BODY_9	/bois locker room/
+describe 	S3BMS_BODY_9	Bois Locker Room Incident Related Pornography content
+score 		S3BMS_BODY_9	3
+
+body 		S3BMS_BODY_10	/(I|i)ndian (B|b)abes/
+describe 	S3BMS_BODY_10 	Indian Pornography Related
+score		S3BMS_BODY_10	3
+
+body 		S3BMS_BODY_11	/(H|h)(Q|q)desi/
+describe	S3BMS_BODY_11	Indian Pornography Related
+score		S3BMS_BODY_11	3
+
+body 		S3BMS_BODY_12	/sanitization and related products/
+describe	S3BMS_BODY_12	Covid Related SPAM we are seeing on the rise
+score		S3BMS_BODY_12	3
+
+header 		S3BMS_HEADER_1	From =~ /info\@rkmumbairealtors\.(info|net|com)/
+describe	S3BMS_HEADER_1	Property related Spam
+score		S3BMS_HEADER_1	3
+
+header 		S3BMS_HEADER_2	From =~ /akashya\.jain\@paysquare\.co\.in/
+describe	S3BMS_HEADER_2	Email Harvesting and UCE Related Spam from paysquare
+score 		S3BMS_HEADER_2 	3
+
+header 		S3BMS_HEADER_3	From =~ /hello\@getindiagold\.co/
+describe 	S3BMS_HEADER_3	Known UCE and Spammer Related to Gold 
+score		S3BMS_HEADER_3	3
