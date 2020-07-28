@@ -120,91 +120,91 @@ score		TBG_COVID_SPAM	1.7
 
 body 		S3BMS_BODY_1	/especially during a pandemic/
 describe 	S3BMS_BODY_1	Spam related to pandemic
-score		S3BMS_BODY_1	3
+score		S3BMS_BODY_1	4
 
 body 		S3BMS_BODY_2	/Every successful person in the world, followed a program or system/
 describe 	S3BMS_BODY_2	Trying to sell consulting and upsell mailing programmes
-score		S3BMS_BODY_2	3
+score		S3BMS_BODY_2	4
 
 body 		S3BMS_BODY_3	/Already started or want our mentorship and training now/
 describe	S3BMS_BODY_3	Selling Mentorship - Consulting Spam
-score		S3BMS_BODY_3	3
+score		S3BMS_BODY_3	4
 
 body 		S3BMS_BODY_4	/get your website on page 1 of Google/
 describe	S3BMS_BODY_4	SEO Spam offering high google positions 
-score		S3BMS_BODY_4	3
+score		S3BMS_BODY_4	4
 
 body 		S3BMS_BODY_5	/website On 1st Page of the Google/
 describe	S3BMS_BODY_5	SEO SPAM offering high google Positions
-score		S3BMS_BODY_5	3
+score		S3BMS_BODY_5	4
 
 body 		S3BMS_BODY_6	/No Listing Fees/
 describe 	S3BMS_BODY_6	Listing Related Spam
-score		S3BMS_BODY_6	3
+score		S3BMS_BODY_6	4
 
 body 		S3BMS_BODY_7	/Bhabhi Porn/
 describe	S3BMS_BODY_7	Indian Pornography related
-score 		S3BMS_BODY_7 	3
+score 		S3BMS_BODY_7 	4
 
 body 		S3BMS_BODY_8	/Desi Porn/
 describe 	S3BMS_BODY_8	Indian Pornography Related 
-score		S3BMS_BODY_8	3
+score		S3BMS_BODY_8	4
 
 body 		S3BMS_BODY_9	/bois locker room/
 describe 	S3BMS_BODY_9	Bois Locker Room Incident Related Pornography content
-score 		S3BMS_BODY_9	3
+score 		S3BMS_BODY_9	4
 
 body 		S3BMS_BODY_10	/(I|i)ndian (B|b)abes/
 describe 	S3BMS_BODY_10 	Indian Pornography Related
-score		S3BMS_BODY_10	3
+score		S3BMS_BODY_10	4
 
 body 		S3BMS_BODY_11	/(H|h)(Q|q)desi/
 describe	S3BMS_BODY_11	Indian Pornography Related
-score		S3BMS_BODY_11	3
+score		S3BMS_BODY_11	4
 
 body 		S3BMS_BODY_12	/sanitization and related products/
 describe	S3BMS_BODY_12	Covid Related SPAM we are seeing on the rise
-score		S3BMS_BODY_12	3
+score		S3BMS_BODY_12	4
 
 body 		S3BMS_BODY_13	/please email us we will remove you from our database/
 describe	S3BMS_BODY_13	No Unusbcribe link - wants an email
-score 		S3BMS_BODY_13	3
+score 		S3BMS_BODY_13	4
 
 body 		S3BMS_BODY_14	/let you know why you are receiving this email/
 describe	S3BMS_BODY_14	We wont let you unsubscribe - 
-score		S3BMS_BODY_14	3
+score		S3BMS_BODY_14	4
 
 body 		S3BMS_BODY_15	/COVID-19 Crisis/
 describe	S3BMS_BODY_15	Covid Related Spam
-score		S3BMS_BODY_15	3
+score		S3BMS_BODY_15	4
 
 body 		S3BMS_BODY_16	/LEADERSHIP DURING CRISIS - COVID-19/
 describe	S3BMS_BODY_16	Covid Related Spam
-score		S3BMS_BODY_16	3
+score		S3BMS_BODY_16	4
 
 body 		S3BMS_BODY_17	/To the concerned (team|officer|Team|Officer)/
 describe	S3BMS_BODY_17	The New Dear Something Spam
-score		S3BMS_BODY_17	3
+score		S3BMS_BODY_17	4
 
 body 		S3BMS_BODY_18	/extremely cost-effective price point/
 describe	S3BMS_BODY_18	upsell emphasis spam 
-score		S3BMS_BODY_18	3
+score		S3BMS_BODY_18	4
 
 body 		S3BMS_BODY_19	/(COVID-19|COVID19|COVID 19) Training/
 describe	S3BMS_BODY_19	Covid 19 Training Related Spam
-score		S3BMS_BODY_19	3
+score		S3BMS_BODY_19	4
 
 body 		S3BMS_BODY_20	/Don\'t want us to send updates to you/
 describe	S3BMS_BODY_20	Unsubscribe Link Missing
-score		S3BMS_BODY_20	3
+score		S3BMS_BODY_20	4
 
 body 		S3BMS_BODY_21 	/remain with the compliance and never miss any deadline/
 describe 	S3BMS_BODY_21	Forceful compliance related upsell
-score 		S3BMS_BODY_21 	3
+score 		S3BMS_BODY_21 	4
 
 body 		S3BMS_BODY_22 	/In times of (COVID|COVID-19)/
 describe	S3BMS_BODY_22	Covid Related Spam
-score		S3BMS_BODY_22	3
+score		S3BMS_BODY_22	4
 
 
 
@@ -212,47 +212,44 @@ score		S3BMS_BODY_22	3
 
 header 		S3BMS_HEADER_1	From =~ /info\@rkmumbairealtors\.(info|net|com)/
 describe	S3BMS_HEADER_1	Property related Spam
-score		S3BMS_HEADER_1	3
+score		S3BMS_HEADER_1	4
 
 header 		S3BMS_HEADER_2	From =~ /akashya\.jain\@paysquare\.co\.in/
 describe	S3BMS_HEADER_2	Email Harvesting and UCE Related Spam from paysquare
-score 		S3BMS_HEADER_2 	3
+score 		S3BMS_HEADER_2 	4
 
 header 		S3BMS_HEADER_3	From =~ /hello\@getindiagold\.co/
 describe 	S3BMS_HEADER_3	Known UCE and Spammer Related to Gold 
-score		S3BMS_HEADER_3	3
+score		S3BMS_HEADER_3	4
 
 header		S3BMS_HEADER_4	From =~ /ybtechie\.com/
 describe	S3BMS_HEADER_4	UCE - Mail Listing Harvesting
-score		S3BMS_HEADER_4	3
+score		S3BMS_HEADER_4	4
 
 header 		S3BMS_HEADER_5	From =~ /megin\.mathew\@design-thinking\.co/
 describe	S3BMS_HEADER_5	UCE - Mail List Harvesting Spam
-score		S3BMS_HEADER_5	3
+score		S3BMS_HEADER_5	4
 
 header 		S3BMS_HEADER_6	From =~ /veena\@asdatachamps\.in/
 describe	S3BMS_HEADER_6	UCE - Mail List Harvesting and COVID related SPAM
-score		S3BMS_HEADER_6	3
+score		S3BMS_HEADER_6	4
 
 header 		S3BMS_HEADER_7	From =~	/anand\@forenthics\.in/
 describe 	S3BMS_HEADER_7	UCE - Mail List Sender with No Unsubscribe Options
-score		S3BMS_HEADER_7	3
+score		S3BMS_HEADER_7	4
 
 header 		S3BMS_HEADER_8	From =~ /safetycircleindia\.com/
 describe	S3BMS_HEADER_8	UCE - Mail List Sender with No Unsubscribe Options
-score		S3BMS_HEADER_8	3
+score		S3BMS_HEADER_8	4
 
 header 		S3BMS_HEADER_9	From =~ /marketing\@corporateseva\.net/
 describe 	S3BMS_HEADER_9	UCE - Mail List - Persistent - Purchased Databases
-score		S3BMS_HEADER_9	3
+score		S3BMS_HEADER_9	4
 
 header 		S3BMS_HEADER_10	From =~ /Prerna\.Chadha\@timesgroup\.com/
 describe	S3BMS_HEADER_10 UCE - Mail - List - No Unsubscribe
-score 		S3BMS_HEADER_10	3
+score 		S3BMS_HEADER_10	4
 
 header 		S3BMS_HEADER_11 From ~/prerna006\@gmail\.com/
 describe	S3BMS_HEADER_11 UCE-Mail List - No Unsubscribe Options
-score		S3BMS_HEADER_11	3
-
-
-
+score		S3BMS_HEADER_11	4
