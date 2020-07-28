@@ -194,6 +194,14 @@ body 		S3BMS_BODY_19	/(COVID-19|COVID19|COVID 19) Training/
 describe	S3BMS_BODY_19	Covid 19 Training Related Spam
 score		S3BMS_BODY_19	3
 
+body 		S3BMS_BODY_20	/Don\'t want us to send updates to you/
+describe	S3BMS_BODY_20	Unsubscribe Link Missing
+score		S3BMS_BODY_20	3
+
+body 		S3BMS_BODY_21 	/remain with the compliance and never miss any deadline/
+describe 	S3BMS_BODY_21	Forceful compliance related upsell
+score 		S3BMS_BODY_21 	3
+
 
 #S3BMS - Header 
 
@@ -228,4 +236,8 @@ score		S3BMS_HEADER_7	3
 header 		S3BMS_HEADER_8	From =~ /safetycircleindia\.com/
 describe	S3BMS_HEADER_8	UCE - Mail List Sender with No Unsubscribe Options
 score		S3BMS_HEADER_8	3
+
+header 		S3BMS_HEADER_9	From =~ /marketing\@corporateseva\.net/
+describe 	S3BMS_HEADER_9	UCE - Mail List - Persistent - Purchased Databases
+score		S3BMS_HEADER_9	3
 
