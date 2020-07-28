@@ -202,6 +202,11 @@ body 		S3BMS_BODY_21 	/remain with the compliance and never miss any deadline/
 describe 	S3BMS_BODY_21	Forceful compliance related upsell
 score 		S3BMS_BODY_21 	3
 
+body 		S3BMS_BODY_22 	/In times of (COVID|COVID-19)/
+describe	S3BMS_BODY_22	Covid Related Spam
+score		S3BMS_BODY_22	3
+
+
 
 #S3BMS - Header 
 
@@ -240,4 +245,14 @@ score		S3BMS_HEADER_8	3
 header 		S3BMS_HEADER_9	From =~ /marketing\@corporateseva\.net/
 describe 	S3BMS_HEADER_9	UCE - Mail List - Persistent - Purchased Databases
 score		S3BMS_HEADER_9	3
+
+header 		S3BMS_HEADER_10	From =~ /Prerna\.Chadha\@timesgroup\.com/
+describe	S3BMS_HEADER_10 UCE - Mail - List - No Unsubscribe
+score 		S3BMS_HEADER_10	3
+
+header 		S3BMS_HEADER_11 From ~/prerna006\@gmail\.com/
+describe	S3BMS_HEADER_11 UCE-Mail List - No Unsubscribe Options
+score		S3BMS_HEADER_11	3
+
+
 
