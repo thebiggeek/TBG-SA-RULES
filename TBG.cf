@@ -182,6 +182,19 @@ body 		S3BMS_BODY_16	/LEADERSHIP DURING CRISIS - COVID-19/
 describe	S3BMS_BODY_16	Covid Related Spam
 score		S3BMS_BODY_16	3
 
+body 		S3BMS_BODY_17	/To the concerned (team|officer|Team|Officer)/
+describe	S3BMS_BODY_17	The New Dear Something Spam
+score		S3BMS_BODY_17	3
+
+body 		S3BMS_BODY_18	/extremely cost-effective price point/
+describe	S3BMS_BODY_18	upsell emphasis spam 
+score		S3BMS_BODY_18	3
+
+body 		S3BMS_BODY_19	/(COVID-19|COVID19|COVID 19) Training/
+describe	S3BMS_BODY_19	Covid 19 Training Related Spam
+score		S3BMS_BODY_19	3
+
+
 #S3BMS - Header 
 
 header 		S3BMS_HEADER_1	From =~ /info\@rkmumbairealtors\.(info|net|com)/
@@ -207,4 +220,12 @@ score		S3BMS_HEADER_5	3
 header 		S3BMS_HEADER_6	From =~ /veena\@asdatachamps\.in/
 describe	S3BMS_HEADER_6	UCE - Mail List Harvesting and COVID related SPAM
 score		S3BMS_HEADER_6	3
+
+header 		S3BMS_HEADER_7	From =~	/anand\@forenthics\.in/
+describe 	S3BMS_HEADER_7	UCE - Mail List Sender with No Unsubscribe Options
+score		S3BMS_HEADER_7	3
+
+header 		S3BMS_HEADER_8	From =~ /safetycircleindia\.com/
+describe	S3BMS_HEADER_8	UCE - Mail List Sender with No Unsubscribe Options
+score		S3BMS_HEADER_8	3
 
