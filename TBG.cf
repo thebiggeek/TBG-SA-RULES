@@ -164,6 +164,13 @@ body 		S3BMS_BODY_12	/sanitization and related products/
 describe	S3BMS_BODY_12	Covid Related SPAM we are seeing on the rise
 score		S3BMS_BODY_12	3
 
+body 		S3BMS_BODY_13	/please email us we will remove you from our database/
+describe	S3BMS_BODY_13	No Unusbcribe link - wants an email
+score 		S3BMS_BODY_13	3
+
+body 		S3BMS_BODY_14	/let you know why you are receiving this email/
+describe	S3BMS_BODY_14	We wont let you unsubscribe - 
+
 header 		S3BMS_HEADER_1	From =~ /info\@rkmumbairealtors\.(info|net|com)/
 describe	S3BMS_HEADER_1	Property related Spam
 score		S3BMS_HEADER_1	3
@@ -175,3 +182,7 @@ score 		S3BMS_HEADER_2 	3
 header 		S3BMS_HEADER_3	From =~ /hello\@getindiagold\.co/
 describe 	S3BMS_HEADER_3	Known UCE and Spammer Related to Gold 
 score		S3BMS_HEADER_3	3
+
+score		S3BMS_HEADER_4	FRom =~ /ybtechie\.com/
+describe	S3BMS_HEADER_4	UCE - Mail Listing Harvesting
+score		S3BMS_HEADER_4	3
