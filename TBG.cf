@@ -206,6 +206,18 @@ body 		S3BMS_BODY_22 	/In times of (COVID|COVID-19)/
 describe	S3BMS_BODY_22	Covid Related Spam
 score		S3BMS_BODY_22	4
 
+body 		S3BMS_BODY_23	/Respected Sir\/Mam/
+describe	S3BMS_BODY_23	Indian way of doing Dear Something Spam
+score		S3BMS_BODY_23	1.73
+
+body 		S3BMS_BODY_24	/special products designed to fight against COVID/
+describe	S3BMS_BODY_24	Coid related upsell and UCE SPAM
+score		S3BMS_BODY_24	4
+
+body 		S3BMS_BODY_25	/specially designed PPE suit/
+describe	S3BMS_BODY_25	Coid related upsell and UCE SPAM
+score		S3BMS_BODY_25	4
+
 
 
 #S3BMS - Header 
@@ -250,6 +262,11 @@ header 		S3BMS_HEADER_10	From =~ /Prerna\.Chadha\@timesgroup\.com/
 describe	S3BMS_HEADER_10 UCE - Mail - List - No Unsubscribe
 score 		S3BMS_HEADER_10	4
 
-header 		S3BMS_HEADER_11 From ~/prerna006\@gmail\.com/
+header 		S3BMS_HEADER_11 From =~ /prerna006\@gmail\.com/
 describe	S3BMS_HEADER_11 UCE-Mail List - No Unsubscribe Options
 score		S3BMS_HEADER_11	4
+
+header 		S3BMS_HEADER_12 From =~ /csr\.tandi\@gmail\.com/
+describe	S3BMS_HEADER_12	UCE-Mail List related to Covid SPAM - No Unsubscribe Option
+score		S3BMS_HEADER_12	4
+
