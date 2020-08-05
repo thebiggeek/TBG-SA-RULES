@@ -218,6 +218,73 @@ body 		S3BMS_BODY_25	/specially designed PPE suit/
 describe	S3BMS_BODY_25	Coid related upsell and UCE SPAM
 score		S3BMS_BODY_25	4
 
+body 		S3BMS_BODY_26	/I believe this would be of great interest and commercial importance to the person concerned/
+describe	S3BMS_BODY_26	Upsell UCE Spam
+score		S3BMS_BODY_26	4
+
+body 		S3BMS_BODY_27	/G Suite 125\/- per user/
+describe	S3BMS_BODY_27	Wrongful selling of Google Services related spam Mails
+score		S3BMS_BODY_27	4
+
+body 		S3BMS_BODY_28	/Vendor in the Google Marketplace Website/
+describe	S3BMS_BODY_28	Wrongful listing of Google Market Place
+score		S3BMS_BODY_28	4
+
+body 		S3BMS_BODY_29	/I am a digital media expert representing a very successful/
+describe	S3BMS_BODY_29	SEO SPAM
+score		S3BMS_BODY_29	4
+
+body 		S3BMS_BODY_30	/Reply to this email with Unsubscribe in the subject line/
+describe	S3BMS_BODY_30	Yes I want more spam from you, got it 
+score		S3BMS_BODY_30	4
+
+body 		S3BMS_BODY_31 	/Reply to this email with \'Unsubscribe\' in the subject line./
+describe	S3BMS_BODY_31 	Similar to BODY_30 Rule - No Unsubscribe option in the Emails
+score		S3BMS_BODY_31 	4
+
+body 		S3BMS_BODY_32 	/drastic change in your Google search ranking/
+describe 	S3BMS_BODY_32 	SEO SPAM
+score 		S3BMS_BODY_32 	4
+
+body 		S3BMS_BODY_33	/This email has been sent to \$email/
+describe	S3BMS_BODY_33	Mail Merge did not work in your Spam Email #84462
+score 		S3BMS_BODY_33	4
+
+body 		S3BMS_BODY_34	/Package Dispatch Manager/
+describe	S3BMS_BODY_34	Logistics related SPAM
+score 		S3BMS_BODY_34	4
+
+body 		S3BMS_BODY_35	/Do fill this information and get back to us ASP You received this message/
+describe	S3BMS_BODY_35	Reference Fedex - ATM Spam
+score 		S3BMS_BODY_35	4
+
+body 		S3BMS_BODY_36	/FedEx Courier Company/
+describe	S3BMS_BODY_36	Reference Fedex - Spam 
+score		S3BMS_BODY_36	4
+
+body 		S3BMS_BODY_37	/contact our Delivery Department for immediate dispatchment of your package/
+describe	S3BMS_BODY_37	Reference Fedex - Spam
+score		S3BMS_BODY_37	4
+
+body 		S3BMS_BODY_38	/Please print out the invoice copy attached and collect the package at our office/
+describe	S3BMS_BODY_38	Reference Fedex - SPAM
+score 		S3BMS_BODY_38	4
+
+body 		S3BMS_BODY_39	/We need to talk to you about your parcel write us at/
+describe 	S3BMS_BODY_39	Reference Fedex - SPAM
+score 		S3BMS_BODY_39 	4
+
+body 		S3BMS_BODY_40 	/I just wanted to know if you’re interested in acquiring the email\-list/
+describe	S3BMS_BODY_40	Selling Mailing List database #84460
+score		S3BMS_BODY_40	4
+
+body 		S3BMS_BODY_41 	/To stop receiving emails, please reply as No Need in the subject line/
+describe 	S3BMS_BODY_41 	Yes I want more spam from you #84460
+score		S3BMS_BODY_41 	4
+
+body 		S3BMS_BODY_42 	/To unsubscribe this mail\, reply stating \"Remove\" in the subject line/
+describe 	S3BMS_BODY_42 	No Unsubscribe Link
+score 		S3BMS_BODY_42 	4
 
 
 #S3BMS - Header 
@@ -269,4 +336,14 @@ score		S3BMS_HEADER_11	4
 header 		S3BMS_HEADER_12 From =~ /csr\.tandi\@gmail\.com/
 describe	S3BMS_HEADER_12	UCE-Mail List related to Covid SPAM - No Unsubscribe Option
 score		S3BMS_HEADER_12	4
+
+header 		S3BMS_HEADER_13 From =~ /sushanta\@thetechnobrand\.com/
+describe 	S3BMS_HEADER_13 SEO Spammer
+score		S3BMS_HEADER_13 4
+
+header 		S3BMS_HEADER_14 From =~ /target2lead\.com/
+describe	S3BMS_HEADER_14 mailing list seller #84460
+score		S3BMS_HEADER_14 4
+
+
 
