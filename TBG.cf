@@ -325,6 +325,53 @@ body 		S3BMS_BODY_52 	/Our product helps organically grow your overall followers
 describe	S3BMS_BODY_52 	Follower - IG related Spam #84801
 score 		S3BMS_BODY_52 	5
 
+body 		S3BMS_BODY_53 	/Not interested\? Unsubscribe here\;/i
+describe 	S3BMS_BODY_53 	Why send emails when they havent signed up
+score 		S3BMS_BODY_53 	5
+
+body 		S3BMS_BODY_54 	/We await a prompt approval from you to deliver messages and restore your cloud storage/i
+describe 	S3BMS_BODY_54 	Fake Email Blocking messages
+score 		S3BMS_BODY_54 	5
+
+body 		S3BMS_BODY_55 	/We notify you about this, to help you regain your full access to our services/i
+describe	S3BMS_BODY_55 	Fake Email Blocking Messages
+score 		S3BMS_BODY_55	5
+
+body 		S3BMS_BODY_56	/Kindly resolve this error by following the instructions below\, and continue enjoying\i
+describe 	S3BMS_BODY_56	Fake Email Blocking Messages
+score		S3BMS_BODY_56	5
+
+body 		S3BMS_BODY_57	/Protect sexual health/i
+describe 	S3BMS_BODY_57	from schall@it rules
+score 		S3BMS_BODY_57	5
+
+body 		S3BMS_BODY_58	/Enjoy blameless lovemaking/i
+describe	S3BMS_BODY_58	from schall@it rules
+score 		S3BMS_BODY_58	5
+
+body 		S3BMS_BODY_59	/I seek for your kind help in setting up a charitable organization/i
+describe	S3BMS_BODY_59	from schall@it rules
+score 		S3BMS_BODY_59	5
+
+body 		S3BMS_BODY_60	/as an internet business marketer/i
+describe	S3BMS_BODY_60	inspiredby scahll@it rules
+score		S3BMS_BODY_60	5
+
+body 		S3BMS_BODY_61 	/If you suspect this message as a spam/i
+describe	S3BMS_BODY_61	from schall@it rules
+score 		S3BMS_BODY_61	5
+
+body 		S3BMS_BODY_62 	/cam(girl|model)/i
+describe	S3BMS_BODY_62 	from schall@it rules
+score 		S3BMS_BODY_62 	5
+
+body 		S3BMS_BODY_63 	/New Local SEO strategies for 2020/i
+describe 	S3BMS_BODY_63 	from schall@it rules
+score		S3BMS_BODY_63 	5
+
+
+
+
 #S3BMS - SENDER LIST - Renaming from S3BMS_HEADER to S3BMS_SENDER
 
 header 		S3BMS_SENDER_1		From =~ /info\@rkmumbairealtors\.(info|net|com)/
@@ -430,6 +477,12 @@ score 		S3BMS_SENDER_25		5
 header 		S3BMS_SENDER_26 	From =~ /y4w\.co/
 describe	S3BMS_SENDER_26 	Spammer with no Unsubscribe Options links
 score 		S3BMS_SENDER_26		5
+
+header 		S3BMS_SENDER_27		From =~ /firstglobalsec\.com/
+describe 	S3BMS_SENDER_27		Spammer abusing paid mailig lists
+score 		S3BMS_SENDER_27		5
+
+
 
 #S3BMS - HEADER Subject List for Convention changing this to S3BMS_SUBJECT
 
