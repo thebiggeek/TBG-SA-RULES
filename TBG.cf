@@ -325,109 +325,115 @@ body 		S3BMS_BODY_52 	/Our product helps organically grow your overall followers
 describe	S3BMS_BODY_52 	Follower - IG related Spam #84801
 score 		S3BMS_BODY_52 	5
 
-#S3BMS - Header 
+#S3BMS - SENDER LIST - Renaming from S3BMS_HEADER to S3BMS_SENDER
 
-header 		S3BMS_HEADER_1		From =~ /info\@rkmumbairealtors\.(info|net|com)/
-describe	S3BMS_HEADER_1		Property related Spam
-score		S3BMS_HEADER_1		5
+header 		S3BMS_SENDER_1		From =~ /info\@rkmumbairealtors\.(info|net|com)/
+describe	S3BMS_SENDER_1		Property related Spam
+score		S3BMS_SENDER_1		5
 	
-header 		S3BMS_HEADER_2		From =~ /akashya\.jain\@paysquare\.co\.in/
-describe	S3BMS_HEADER_2		Email Harvesting and UCE Related Spam from paysquare
-score 		S3BMS_HEADER_2 		5
+header 		S3BMS_SENDER_2		From =~ /akashya\.jain\@paysquare\.co\.in/
+describe	S3BMS_SENDER_2		Email Harvesting and UCE Related Spam from paysquare
+score 		S3BMS_SENDER_2 		5
 	
-header 		S3BMS_HEADER_3		From =~ /hello\@getindiagold\.co/
-describe 	S3BMS_HEADER_3		Known UCE and Spammer Related to Gold 
-score		S3BMS_HEADER_3		5
+header 		S3BMS_SENDER_3		From =~ /hello\@getindiagold\.co/
+describe 	S3BMS_SENDER_3		Known UCE and Spammer Related to Gold 
+score		S3BMS_SENDER_3		5
 	
-header		S3BMS_HEADER_4		From =~ /ybtechie\.com/
-describe	S3BMS_HEADER_4		UCE - Mail Listing Harvesting
-score		S3BMS_HEADER_4		5
+header		S3BMS_SENDER_4		From =~ /ybtechie\.com/
+describe	S3BMS_SENDER_4		UCE - Mail Listing Harvesting
+score		S3BMS_SENDER_4		5
 	
-header 		S3BMS_HEADER_5		From =~ /megin\.mathew\@design-thinking\.co/
-describe	S3BMS_HEADER_5		UCE - Mail List Harvesting Spam
-score		S3BMS_HEADER_5		5
+header 		S3BMS_SENDER_5		From =~ /megin\.mathew\@design-thinking\.co/
+describe	S3BMS_SENDER_5		UCE - Mail List Harvesting Spam
+score		S3BMS_SENDER_5		5
 	
-header 		S3BMS_HEADER_6		From =~ /veena\@asdatachamps\.in/
-describe	S3BMS_HEADER_6		UCE - Mail List Harvesting and COVID related SPAM
-score		S3BMS_HEADER_6		5
+header 		S3BMS_SENDER_6		From =~ /veena\@asdatachamps\.in/
+describe	S3BMS_SENDER_6		UCE - Mail List Harvesting and COVID related SPAM
+score		S3BMS_SENDER_6		5
 	
-header 		S3BMS_HEADER_7		From =~	/anand\@forenthics\.in/
-describe 	S3BMS_HEADER_7		UCE - Mail List Sender with No Unsubscribe Options
-score		S3BMS_HEADER_7		5
+header 		S3BMS_SENDER_7		From =~	/anand\@forenthics\.in/
+describe 	S3BMS_SENDER_7		UCE - Mail List Sender with No Unsubscribe Options
+score		S3BMS_SENDER_7		5
 	
-header 		S3BMS_HEADER_8		From =~ /safetycircleindia\.com/
-describe	S3BMS_HEADER_8		UCE - Mail List Sender with No Unsubscribe Options
-score		S3BMS_HEADER_8		5
+header 		S3BMS_SENDER_8		From =~ /safetycircleindia\.com/
+describe	S3BMS_SENDER_8		UCE - Mail List Sender with No Unsubscribe Options
+score		S3BMS_SENDER_8		5
 	
-header 		S3BMS_HEADER_9		From =~ /marketing\@corporateseva\.net/
-describe 	S3BMS_HEADER_9		UCE - Mail List - Persistent - Purchased Databases
-score		S3BMS_HEADER_9		5
+header 		S3BMS_SENDER_9		From =~ /marketing\@corporateseva\.net/
+describe 	S3BMS_SENDER_9		UCE - Mail List - Persistent - Purchased Databases
+score		S3BMS_SENDER_9		5
 	
-header 		S3BMS_HEADER_10		From =~ /Prerna\.Chadha\@timesgroup\.com/
-describe	S3BMS_HEADER_10 	UCE - Mail - List - No Unsubscribe
-score 		S3BMS_HEADER_10		5
+header 		S3BMS_SENDER_10		From =~ /Prerna\.Chadha\@timesgroup\.com/
+describe	S3BMS_SENDER_10 	UCE - Mail - List - No Unsubscribe
+score 		S3BMS_SENDER_10		5
 	
-header 		S3BMS_HEADER_11 	From =~ /prerna006\@gmail\.com/
-describe	S3BMS_HEADER_11 	UCE-Mail List - No Unsubscribe Options
-score		S3BMS_HEADER_11		5
+header 		S3BMS_SENDER_11 	From =~ /prerna006\@gmail\.com/
+describe	S3BMS_SENDER_11 	UCE-Mail List - No Unsubscribe Options
+score		S3BMS_SENDER_11		5
 	
-header 		S3BMS_HEADER_12 	From =~ /csr\.tandi\@gmail\.com/
-describe	S3BMS_HEADER_12		UCE-Mail List related to Covid SPAM - No Unsubscribe Option
-score		S3BMS_HEADER_12		5
+header 		S3BMS_SENDER_12 	From =~ /csr\.tandi\@gmail\.com/
+describe	S3BMS_SENDER_12		UCE-Mail List related to Covid SPAM - No Unsubscribe Option
+score		S3BMS_SENDER_12		5
 	
-header 		S3BMS_HEADER_13 	From =~ /sushanta\@thetechnobrand\.com/
-describe 	S3BMS_HEADER_13 	SEO Spammer
-score		S3BMS_HEADER_13 	5
+header 		S3BMS_SENDER_13 	From =~ /sushanta\@thetechnobrand\.com/
+describe 	S3BMS_SENDER_13 	SEO Spammer
+score		S3BMS_SENDER_13 	5
 	
-header 		S3BMS_HEADER_14 	From =~ /target2lead\.com/
-describe	S3BMS_HEADER_14 	mailing list seller #84460
-score		S3BMS_HEADER_14 	5
+header 		S3BMS_SENDER_14 	From =~ /target2lead\.com/
+describe	S3BMS_SENDER_14 	mailing list seller #84460
+score		S3BMS_SENDER_14 	5
 	
-header 		S3BMS_HEADER_15		From =~ /transformanceforums\.com/
-describe	S3BMS_HEADER_15 	Uses purchased Email lists to SPAM
-score 		S3BMS_HEADER_15 	5
+header 		S3BMS_SENDER_15		From =~ /transformanceforums\.com/
+describe	S3BMS_SENDER_15 	Uses purchased Email lists to SPAM
+score 		S3BMS_SENDER_15 	5
 	
-header 		S3BMS_HEADER_16		From =~ /transformancebusinessmedia\.com/
-describe	S3BMS_HEADER_16 	Alternate Domain to same Spammer in HEADER_15
-score 		S3BMS_HEADER_16 	5
+header 		S3BMS_SENDER_16		From =~ /transformancebusinessmedia\.com/
+describe	S3BMS_SENDER_16 	Alternate Domain to same Spammer in HEADER_15
+score 		S3BMS_SENDER_16 	5
 	
-header 		S3BMS_HEADER_17 	Form =~ /globalagileenquiry\.com/
-describe 	S3BMS_HEADER_17 	Alternate Sender to Domain in HEADER_15 and HEADER_16 - Usually in Body
-score 		S3BMS_HEADER_17		5
+header 		S3BMS_SENDER_17 	Form =~ /globalagileenquiry\.com/
+describe 	S3BMS_SENDER_17 	Alternate Sender to Domain in HEADER_15 and HEADER_16 - Usually in Body
+score 		S3BMS_SENDER_17		5
 
-header 		S3BMS_HEADER_18		From =~	/microworldinfosol\.com/
-describe	S3BMS_HEADER_18		Spammer - Using Lists, no Unsubscribe and not accepting unsubscribe requests
-score 		S3BMS_HEADER_18		5
+header 		S3BMS_SENDER_18		From =~	/microworldinfosol\.com/
+describe	S3BMS_SENDER_18		Spammer - Using Lists, no Unsubscribe and not accepting unsubscribe requests
+score 		S3BMS_SENDER_18		5
 
-header 		S3BMS_HEADER_19		From =~	/microworldindia\.co\.in/
-describe	S3BMS_HEADER_19		Same Spammer as HEADER_18
-score 		S3BMS_HEADER_19		5
+header 		S3BMS_SENDER_19		From =~	/microworldindia\.co\.in/
+describe	S3BMS_SENDER_19		Same Spammer as HEADER_18
+score 		S3BMS_SENDER_19		5
 
-header 		S3BMS_HEADER_20		To =~ /bmailstudio\.com/
-describe 	S3BMS_HEADER_20 	Property Related Spammer using Google Groups to SPAM
-score 		S3BMS_HEADER_20		5
+header 		S3BMS_SENDER_20		To =~ /bmailstudio\.com/
+describe 	S3BMS_SENDER_20 	Property Related Spammer using Google Groups to SPAM
+score 		S3BMS_SENDER_20		5
 
-header 		S3BMS_HEADER_21 	From =~ /hanskyadav\@hotmail\.com/
-describe 	S3BMS_HEADER_21 	Same Sender as HEADER_20 
-score 		S3BMS_HEADER_21 	5
+header 		S3BMS_SENDER_21 	From =~ /hanskyadav\@hotmail\.com/
+describe 	S3BMS_SENDER_21 	Same Sender as HEADER_20 
+score 		S3BMS_SENDER_21 	5
 
-header 		S3BMS_HEADER_22		From =~ /myzamanamail\.com/
-describe 	S3BMS_HEADER_22 	From MyZamana - Dating SPAM/SCAM #84564
-score 		S3BMS_HEADER_22 	5
+header 		S3BMS_SENDER_22		From =~ /myzamanamail\.com/
+describe 	S3BMS_SENDER_22 	From MyZamana - Dating SPAM/SCAM #84564
+score 		S3BMS_SENDER_22 	5
 
-header 		S3BMS_HEADER_23 	From =~ /myzchats\.com/
-describe 	S3BMS_HEADER_23		From MyZamana Alternative Email Domain - Dating Scam #84842
-score 		S3BMS_HEADER_23		5
+header 		S3BMS_SENDER_23 	From =~ /myzchats\.com/
+describe 	S3BMS_SENDER_23		From MyZamana Alternative Email Domain - Dating Scam #84842
+score 		S3BMS_SENDER_23		5
 
-header 		S3BMS_HEADER_24 	From =~ /paysquare\.co\.in/
-describe 	S3BMS_HEADER_24		Spammer with no unsubscribe links in their emails
-score 		S3BMS_HEADER_24		5
+header 		S3BMS_SENDER_24 	From =~ /paysquare\.co\.in/
+describe 	S3BMS_SENDER_24		Spammer with no unsubscribe links in their emails
+score 		S3BMS_SENDER_24		5
 
-header 		S3BMS_HEADER_25 	From =~ /youth4work\.in/
-describe	S3BMS_HEADER_25 	Spammer with no Unsubscribe Options links
-score 		S3BMS_HEADER_25		5
+header 		S3BMS_SENDER_25 	From =~ /youth4work\.in/
+describe	S3BMS_SENDER_25 	Spammer with no Unsubscribe Options links
+score 		S3BMS_SENDER_25		5
 
-header 		S3BMS_HEADER_26 	From =~ /y4w\.co/
-describe	S3BMS_HEADER_26 	Spammer with no Unsubscribe Options links
-score 		S3BMS_HEADER_26		5
+header 		S3BMS_SENDER_26 	From =~ /y4w\.co/
+describe	S3BMS_SENDER_26 	Spammer with no Unsubscribe Options links
+score 		S3BMS_SENDER_26		5
+
+#S3BMS - HEADER Subject List for Convention changing this to S3BMS_SUBJECT
+
+header 		S3BMS_SUBJECT_1		Subject =~ /We specialize in Debt Recovery \- Request for a Meeting/i
+describe 	S3BMS_SUBJECT_1		Spam related to Debt Recovery
+score 		S3BMS_SUBJECT_1		5
 
