@@ -253,3 +253,8 @@ score 		S3BMS_BODY_114	5
 body 		S3BMS_BODY_115 	/Webmaιl Suppοrt/i 
 describe 	S3BMS_BODY_115	Email Support scam #85134
 score 		S3BMS_BODY_115 	5
+
+body 		S3BMS_BODY_116	/You are receiving this email because you opted in via our website/i
+describe	S3BMS_BODY_116	Default Opt-in information used by MailChimp being abused now
+score 		S3BMS_BODY_116 	3 #Lower Score as some of these can be genuine, and rest points will be based on contnet
+

@@ -108,6 +108,10 @@ header 		S3BMS_SENDER_27		From =~ /firstglobalsec\.com/
 describe 	S3BMS_SENDER_27		Spammer abusing paid mailig lists
 score 		S3BMS_SENDER_27		5
 
-header 		S3BMS_SENDER_28		From =~ /zimbraservice\@123-reg\.co\.uk/
-describe	S3BMS_SENDER_28 	Spammer sending Zimbra related Spam
+header 		S3BMS_SENDER_28		From =~ /zimbraservice\@123\-reg\.co\.uk/
+describe	S3BMS_SENDER_28 	Spammer sending Zimbra related Spam #85134
 score		S3BMS_SENDER_28		5
+
+header 		S3BMS_SENDER_29		From =~ /pandemic\-punditry\.com/
+describe	S3BMS_SENDER_29		Spammer abusing COVID pandemic
+score 		S3BMS_SENDER_29		5
