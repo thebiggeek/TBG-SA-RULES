@@ -273,3 +273,19 @@ score 		S3BMS_BODY_119	5
 body 		S3BMS_BODY_120	/although we barely know each other/
 describe 	S3BMS_BODY_120	Investment fraud emails 
 score 		S3BMS_BODY_120	5
+
+body 		S3BMS_BODY_121 	/To opt out from our newsletter\, please unsubscribe here/
+describe 	S3BMS_BODY_121 	Unsubscribe not possible - Mailing Lists 
+score 		S3BMS_BODY_121 	3 #Giving lower score as this can be used wrongly
+
+body 		S3BMS_BODY_122 	/Accept my sincere apology for this unsolicited message/i
+describe 	S3BMS_BODY_122	UCE SPAM purchase order type 
+score 		S3BMS_BODY_122 	5
+
+body 		S3BMS_BODY_123 	/I will present to our Company as the Supplier/i
+describe 	S3BMS_BODY_123	UCE Spam for purchase Order 
+score 		S3BMS_BODY_123	5
+
+body 		S3BMS_BODY_124 	/I am contacting you in regards to business I have with my company/i
+describe 	S3BMS_BODY_124	UCE SPAM for Purchase Order Scam
+score 		S3BMS_BODY_124	5
