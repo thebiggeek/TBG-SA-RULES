@@ -289,3 +289,11 @@ score 		S3BMS_BODY_123	5
 body 		S3BMS_BODY_124 	/I am contacting you in regards to business I have with my company/i
 describe 	S3BMS_BODY_124	UCE SPAM for Purchase Order Scam
 score 		S3BMS_BODY_124	5
+
+body 		S3BMS_BODY_125	/GCM Worldwide/i
+describe	S3BMS_BODY_125	Known Spammer - Spams as Rajeev Gupta Changing Email ID's often
+score 		S3BMS_BODY_125	5
+
+body 		S3BMS_BODY_126	/For unsubscribe from the mailing list\, please mail us on/i
+describe	S3BMS_BODY_126	No Unsubscribe link in the email - typically spammer
+score 		S3BMS_BODY_126 	5
