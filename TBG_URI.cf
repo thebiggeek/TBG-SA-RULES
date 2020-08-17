@@ -4,5 +4,3 @@
 uri 	 	S3BMS_URI_1 		/https\:\/\/*\.pawitforward\.info\/zimbra\//
 score	 	S3BMS_URI_1			5
 describe 	S3BMS_URI_1			Ticket #85134
-
-

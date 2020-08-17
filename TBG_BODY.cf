@@ -297,3 +297,12 @@ score 		S3BMS_BODY_125	5
 body 		S3BMS_BODY_126	/For unsubscribe from the mailing list\, please mail us on/i
 describe	S3BMS_BODY_126	No Unsubscribe link in the email - typically spammer
 score 		S3BMS_BODY_126 	5
+
+body 		S3BMS_BODY_127	/This email ιs from a trusted sοurce/i
+describe	S3BMS_BODY_127	People trying to fake contact book trust
+score 		S3BMS_BODY_127	5
+
+body 		S3BMS_BODY_128	/Click Here To Release Pending Messages Inbox/i
+describe	S3BMS_BODY_128	Quarantine Email related SPAM
+score 		S3BMS_BODY_128	5
+
