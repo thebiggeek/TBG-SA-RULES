@@ -306,3 +306,7 @@ body 		S3BMS_BODY_128	/Click Here To Release Pending Messages Inbox/i
 describe	S3BMS_BODY_128	Quarantine Email related SPAM
 score 		S3BMS_BODY_128	5
 
+body 		S3BMS_BODY_129	/Muds Management/i
+describe 	S3BMS_BODY_129	Bad Reputation company using ROC Database to SPAM - not honouring Unsubscribe
+score 		S3BMS_BODY_129	3 #Lower score as company can be working with some one
+

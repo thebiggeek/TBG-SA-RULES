@@ -119,3 +119,11 @@ score 		S3BMS_SENDER_29		5
 header 		S3BMS_SENDER_30 	From =~ /solveerrors\.com/
 describe 	S3BMS_SENDER_30		Spammer Sending Lottery Spam
 score 		S3BMS_SENDER_30	 	5
+
+header 		S3BMS_SENDER_31 	From =~ /nbfcnow\.com/
+describe 	S3BMS_SENDER_31 	Using ROC Registry to Spam 
+score 		S3BMS_SENDER_31 	5
+
+header 		S3BMS_SENDER_32 	From =~ /muds\.co\.in/
+describe 	S3BMS_SENDER_32 	Using ROC Registry to Spam Related to SENDER_31
+score 		S3BMS_SENDER_32 	5
