@@ -11,3 +11,7 @@ score 		S3BMS_SUBJECT_2		5
 header 		S3BMS_SUBJECT_3 	Subject =~ /Your sent messages on Pending/i
 describe 	S3BMS_SUBJECT_3		Quarantine Mail Spam / Scam
 score 		S3BMS_SUBJECT_3		5
+
+header 		S3BMS_SUBJECT_4		Subject =~ /Your a\/c can be credited with Rs/i
+describe 	S3BMS_SUBJECT_4		Lottery Scam
+score 		S3BMS_SUBJECT_4		5
