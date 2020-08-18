@@ -115,3 +115,7 @@ score		S3BMS_SENDER_28		5
 header 		S3BMS_SENDER_29		From =~ /pandemic\-punditry\.com/
 describe	S3BMS_SENDER_29		Spammer abusing COVID pandemic
 score 		S3BMS_SENDER_29		5
+
+header 		S3BMS_SENDER_30 	From =~ /solveerrors\.com/
+describe 	S3BMS_SENDER_30		Spammer Sending Lottery Spam
+score 		S3BMS_SENDER_30	 	5
