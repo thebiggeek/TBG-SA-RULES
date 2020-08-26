@@ -310,3 +310,7 @@ body 		S3BMS_BODY_129	/Muds Management/i
 describe 	S3BMS_BODY_129	Bad Reputation company using ROC Database to SPAM - not honouring Unsubscribe
 score 		S3BMS_BODY_129	3 #Lower score as company can be working with some one
 
+body 		S3BMS_BODY_130 	/You have pending incoming emails that you are yet to receive/i
+describe 	S3BMS_BODY_130	Quarantine Email Spam
+score 		S3BMS_BODY_130	5
+
