@@ -314,3 +314,10 @@ body 		S3BMS_BODY_130 	/You have pending incoming emails that you are yet to rec
 describe 	S3BMS_BODY_130	Quarantine Email Spam
 score 		S3BMS_BODY_130	5
 
+body 		S3BMS_BODY_131 	/I write briefly to seek your collaboration/i
+describe 	S3BMS_BODY_131 	Fake Business Email
+score 		S3BMS_BODY_131 	5
+
+body 		S3BMS_BODY_132 	/seek your collaboration in a very huge multi\-million project for us/i
+describe 	S3BMS_BODY_132 	Fake Business Email
+score 		S3BMS_BODY_132 	5
