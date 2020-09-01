@@ -321,3 +321,11 @@ score 		S3BMS_BODY_131 	5
 body 		S3BMS_BODY_132 	/seek your collaboration in a very huge multi\-million project for us/i
 describe 	S3BMS_BODY_132 	Fake Business Email
 score 		S3BMS_BODY_132 	5
+
+body 		S3BMS_BODY_133	/संलग्न फॉर्म की जांच करें और जानकारी से भी संपर्क करें/
+describe 	S3BMS_BODY_133 	Hindi Spam 
+score 		S3BMS_BODY_133	5
+
+body 		S3BMS_BODY_134 	/अटैच की गई फाइल देखें/
+describe 	S3BMS_BODY_134 	Hindi Spam 
+score 		S3BMS_BODY_134	5
