@@ -127,3 +127,7 @@ score 		S3BMS_SENDER_31 	5
 header 		S3BMS_SENDER_32 	From =~ /muds\.co\.in/
 describe 	S3BMS_SENDER_32 	Using ROC Registry to Spam Related to SENDER_31
 score 		S3BMS_SENDER_32 	5
+
+header 		S3BMS_SENDER_33		From =~ /advidsdesigns\.net/
+describe	S3BMS_SENDER_33		Using Phishing to send Video making Emails - UCE
+score		S3BMS_SENDER_33		5
