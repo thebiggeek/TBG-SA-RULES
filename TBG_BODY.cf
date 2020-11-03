@@ -329,3 +329,7 @@ score 		S3BMS_BODY_133	5
 body 		S3BMS_BODY_134 	/अटैच की गई फाइल देखें/
 describe 	S3BMS_BODY_134 	Hindi Spam 
 score 		S3BMS_BODY_134	5
+
+body 		S3BMS_BODY_135	/To unsubscribe this mail\, reply stating/
+describe	S3BMS_BODY_135	Mailing list does not give option to unsubscribe
+score 		S3BMS_BODY_135	5
