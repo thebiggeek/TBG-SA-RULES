@@ -338,6 +338,12 @@ body 		S3BMS_BODY_136	/Fill Email To Unsubscribe/
 describe	S3BMS_BODY_136	Mailing list does not give option to unsubscribe
 score 		S3BMS_BODY_136	5
 
-body 		S3BMS_BODY_137	/If you don]'t want to hear from me ever again\, please reply/
+body 		S3BMS_BODY_137	/If you don\'t want to hear from me ever again\, please reply/
 describe 	S3BMS_BODY_137	Mailing list does not give option to unsubscribe
 score 		S3BMS_BODY_137	5
+
+body 		S3BMS_BODY_138	/To unsubscribe from this list\, please email to/
+describe 	S3BMS_BODY_138	Mailing list does not give option to unsubscribe
+score 		S3BMS_BODY_138	5
+
+
