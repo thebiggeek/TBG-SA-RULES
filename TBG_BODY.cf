@@ -322,27 +322,27 @@ body 		S3BMS_BODY_132 	/seek your collaboration in a very huge multi\-million pr
 describe 	S3BMS_BODY_132 	Fake Business Email
 score 		S3BMS_BODY_132 	5
 
-body 		S3BMS_BODY_133	/संलग्न फॉर्म की जांच करें और जानकारी से भी संपर्क करें/
+body 		S3BMS_BODY_133	/संलग्न फॉर्म की जांच करें और जानकारी से भी संपर्क करें/i
 describe 	S3BMS_BODY_133 	Hindi Spam 
 score 		S3BMS_BODY_133	5
 
-body 		S3BMS_BODY_134 	/अटैच की गई फाइल देखें/
+body 		S3BMS_BODY_134 	/अटैच की गई फाइल देखें/i
 describe 	S3BMS_BODY_134 	Hindi Spam 
 score 		S3BMS_BODY_134	5
 
-body 		S3BMS_BODY_135	/To unsubscribe this mail\, reply stating/
+body 		S3BMS_BODY_135	/To unsubscribe this mail\, reply stating/i
 describe	S3BMS_BODY_135	Mailing list does not give option to unsubscribe
 score 		S3BMS_BODY_135	5
 
-body 		S3BMS_BODY_136	/Fill Email To Unsubscribe/
+body 		S3BMS_BODY_136	/Fill Email To Unsubscribe/i
 describe	S3BMS_BODY_136	Mailing list does not give option to unsubscribe
 score 		S3BMS_BODY_136	5
 
-body 		S3BMS_BODY_137	/If you don\'t want to hear from me ever again\, please reply/
+body 		S3BMS_BODY_137	/If you don\'t want to hear from me ever again\, please reply/i
 describe 	S3BMS_BODY_137	Mailing list does not give option to unsubscribe
 score 		S3BMS_BODY_137	5
 
-body 		S3BMS_BODY_138	/To unsubscribe from this list\, please email to/
+body 		S3BMS_BODY_138	/To unsubscribe from this list\, please email to/i
 describe 	S3BMS_BODY_138	Mailing list does not give option to unsubscribe
 score 		S3BMS_BODY_138	5
 
