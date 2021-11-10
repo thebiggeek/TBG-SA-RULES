@@ -17,5 +17,9 @@ describe 	S3BMS_SUBJECT_4		Lottery Scam
 score 		S3BMS_SUBJECT_4		5
 
 header 		S3BMS_SUBJECT_5		Subject =~ /have Pending incoming e\-Mail/i
-describe 	S3BMS_SUBJECT_4		Quarantine Email Scam / Spam
-score 		S3BMS_SUBJECT_4		5
+describe 	S3BMS_SUBJECT_5		Quarantine Email Scam / Spam
+score 		S3BMS_SUBJECT_5		5
+
+header          S3BMS_SUBJECT_6         Subject = ~ /Validate Mail Server To avoid Deactivation/i
+describe        S3BMS_SUBJECT_6         Spam related to deactivation of email server
+score           S3BMS_SUBJECT_6         6
