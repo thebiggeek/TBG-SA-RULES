@@ -346,4 +346,22 @@ body 		S3BMS_BODY_138	/To unsubscribe from this list\, please email to/i
 describe 	S3BMS_BODY_138	Mailing list does not give option to unsubscribe
 score 		S3BMS_BODY_138	5
 
+body 		S3BMS_BODY_139	/Zimbra Notice/i
+describe 	S3BMS_BODY_139	Spam related to zimbra
+score		S3BMS_BODY_139	2
 
+body 		S3BMS_BODY_140	/account is outdated/i
+describe 	S3BMS_BODY_140	Spam related to zimbra
+score		S3BMS_BODY_140	2
+
+body 		S3BMS_BODY_141	/zimbra will be closed/i
+describe 	S3BMS_BODY_141	Spam related to zimbra
+score		S3BMS_BODY_141	2
+
+body 		S3BMS_BODY_142	/Zimbra Helpdesk/i
+describe 	S3BMS_BODY_142	Spam related to zimbra
+score		S3BMS_BODY_142	2
+
+body 		S3BMS_BODY_143	/Zimbra Online/i
+describe 	S3BMS_BODY_143	Spam related to zimbra
+score		S3BMS_BODY_143	2
