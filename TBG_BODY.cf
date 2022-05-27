@@ -381,3 +381,7 @@ score		S3BMS_BODY_146	2
 body 		S3BMS_BODY_147	/Zimbra Security Team/i
 describe 	S3BMS_BODY_147	Zimbra related spam
 score		S3BMS_BODY_147	2
+
+body 		S3BMS_BODY_148	/sent you a private message/i
+describe 	S3BMS_BODY_148	Zimbra related spam
+score		S3BMS_BODY_148	2
