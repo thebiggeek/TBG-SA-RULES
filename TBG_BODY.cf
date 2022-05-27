@@ -374,6 +374,6 @@ body 		S3BMS_BODY_145	/Internal IT Support/i
 describe 	S3BMS_BODY_145	Spam related to email hijack
 score		S3BMS_BODY_145	2
 
-body 		S3BMS_BODY_146	/continue with the same password/i
+body 		S3BMS_BODY_146	/\bcontinue with the same password\/b/i
 describe 	S3BMS_BODY_146	Spam related to password hijack
 score		S3BMS_BODY_146	2
