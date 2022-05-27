@@ -377,3 +377,7 @@ score		S3BMS_BODY_145	2
 body 		S3BMS_BODY_146	/continue with the same password/i
 describe 	S3BMS_BODY_146	Spam related to password hijack
 score		S3BMS_BODY_146	2
+
+body 		S3BMS_BODY_147	/Zimbra Security Team/i
+describe 	S3BMS_BODY_147	Zimbra related spam
+score		S3BMS_BODY_147	2
