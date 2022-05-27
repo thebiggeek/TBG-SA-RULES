@@ -366,7 +366,7 @@ body 		S3BMS_BODY_143	/Zimbra Online/i
 describe 	S3BMS_BODY_143	Spam related to zimbra
 score		S3BMS_BODY_143	2
 
-ody 		S3BMS_BODY_144	/email account will be discontinue/i
+body 		S3BMS_BODY_144	/email account will be discontinue/i
 describe 	S3BMS_BODY_144	Spam related to email hijack
 score		S3BMS_BODY_144	2
 
