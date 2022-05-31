@@ -385,3 +385,8 @@ score		S3BMS_BODY_147	2
 body 		S3BMS_BODY_148	/sent you a private message/i
 describe 	S3BMS_BODY_148	Zimbra related spam
 score		S3BMS_BODY_148	2
+
+body 		S3BMS_BODY_149	/Your Pasword is due for Renewal/i
+describe 	S3BMS_BODY_149	Zimbra related spam
+score		S3BMS_BODY_149	2
+
