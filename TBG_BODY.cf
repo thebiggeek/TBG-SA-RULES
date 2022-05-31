@@ -390,3 +390,10 @@ body 		S3BMS_BODY_149	/Your Pasword is due for Renewal/i
 describe 	S3BMS_BODY_149	Zimbra related spam
 score		S3BMS_BODY_149	2
 
+body 		S3BMS_BODY_150	/Pasword Expiry Notice/i
+describe 	S3BMS_BODY_150	Zimbra related spam
+score		S3BMS_BODY_150	2
+
+body 		S3BMS_BODY_151	/Extend your password dat/i
+describe 	S3BMS_BODY_151	Zimbra related spam
+score		S3BMS_BODY_151	2
