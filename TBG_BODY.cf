@@ -397,3 +397,16 @@ score		S3BMS_BODY_150	2
 body 		S3BMS_BODY_151	/Extend your password dat/i
 describe 	S3BMS_BODY_151	Zimbra related spam
 score		S3BMS_BODY_151	2
+
+body 		S3BMS_BODY_152	/the updated account funds every year/i
+describe 	S3BMS_BODY_152	GeekSquad Misleading Scam Emails
+score		S3BMS_BODY_152	2
+
+body 		S3BMS_BODY_153	/We are glad to you for staying as Geek/i
+describe 	S3BMS_BODY_153	GeekSquad Misleading Scam Emails
+score		S3BMS_BODY_153	2
+
+body 		S3BMS_BODY_154	/The administrations for your request number/i
+describe 	S3BMS_BODY_154	GeekSquad Misleading Scam Emails
+score		S3BMS_BODY_154	2
+
